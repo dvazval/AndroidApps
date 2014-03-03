@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFCell.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFCellStyle.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFDataFormat.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFDateUtil.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFErrorConstants.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFFont.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFFooter.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFHeader.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFName.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFPalette.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFPrintSetup.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFRow.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFSheet.java"/>
+	<classpathentry kind="lib" path="libs/poi/hssf/usermodel/HSSFWorkbook.java"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
