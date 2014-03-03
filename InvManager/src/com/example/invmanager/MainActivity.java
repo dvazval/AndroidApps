@@ -11,18 +11,15 @@ import android.widget.Spinner;
 
 public class MainActivity extends Activity {
 
+	
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
         createSpinner(R.id.spinner1, R.array.Categorias);
-     
-        
     }
     
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -32,8 +29,8 @@ public class MainActivity extends Activity {
     
     
     public void busquedaResultados(View view){
-    	// Buscar en los excel 
-    	
+    	// Buscar en los excel
+    	ReadExcel lector = new ReadExcel();
     	
     }
     
@@ -48,5 +45,9 @@ public class MainActivity extends Activity {
 	    // Aplicar el adaptador al Spinner
 	    spinner.setAdapter(adapter);
     }
+    
+    
+    
+    
     
 }
